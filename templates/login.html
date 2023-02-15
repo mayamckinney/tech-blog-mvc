@@ -37,10 +37,11 @@
     <div class="card-body">
         <form>
             <div class="mb-3">
-                <div class="form-text text-center">Don't have an account? <a href="#sign-up">Sign up instead!</a></div>
-              <label for="inputEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
+                <div class="form-text text-center mb-3">Don't have an account? <a href="#sign-up">Sign up instead!</a></div>
+                <div class="input-group flex-nowrap mb-3">
+                  <span class="input-group-text" id="addon-wrapping">@</span>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" id="inputPassword">

@@ -25,7 +25,7 @@ Comment.init({
             key: 'id'
         }
     },
-    comment_input: {
+    comment_content: {
         type: DataTypes.STRING,
         // comment must be longer than 3 characters
         validate: {
