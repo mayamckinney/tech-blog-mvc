@@ -10,7 +10,8 @@ async function loginHandler(event) {
             body: JSON.stringify({
                 username,
                 password
-            })
+            }),
+            headers: { 'Content-Type': 'application/json' }
         });
             //send to dashboard if response is good
         if (response.ok) {
