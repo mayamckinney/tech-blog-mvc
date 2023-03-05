@@ -20,7 +20,7 @@ async function loginHandler(event) {
 
         else {
             let result = await response.json();
-            alert(result.message)
+            alert(response.status)
         }
     };
 

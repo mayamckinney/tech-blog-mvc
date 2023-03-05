@@ -20,7 +20,7 @@ async function signupHandler(event) {
         }
 
         else {
-            alert(result.message);
+            alert(response.status);
         }
     }
 }
